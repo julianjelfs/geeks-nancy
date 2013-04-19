@@ -1,0 +1,53 @@
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\FlexProviders.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\FlexProviders.pdb
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\DotNetOpenAuth.AspNet.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\DotNetOpenAuth.OAuth.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\DotNetOpenAuth.Core.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\DotNetOpenAuth.OpenId.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\System.Net.Http.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\log4net.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\obj\Debug\FlexProviders.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\obj\Debug\FlexProviders.pdb
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\Org.Mentalis.Security.Cryptography.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\Mono.Math.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\DotNetOpenAuth.AspNet.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\DotNetOpenAuth.OAuth.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\DotNetOpenAuth.Core.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\DotNetOpenAuth.OpenId.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\System.Net.Http.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\log4net.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\Org.Mentalis.Security.Cryptography.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\bin\Debug\Mono.Math.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders\obj\Debug\FlexProviders.csprojResolveAssemblyReference.cache
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\FlexProviders.dll
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\FlexProviders.pdb
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.OAuth.dll
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.Core.dll
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.OpenId.dll
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\System.Net.Http.dll
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\log4net.dll
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\Org.Mentalis.Security.Cryptography.dll
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\Mono.Math.dll
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.AspNet.xml
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\Microsoft.Web.WebPages.OAuth.xml
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.OAuth.xml
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.Core.xml
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.OpenId.xml
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\System.Net.Http.xml
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\log4net.xml
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\Org.Mentalis.Security.Cryptography.xml
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\Mono.Math.xml
+C:\my-projects\geeks-nancy\FlexProviders\obj\Debug\FlexProviders.csprojResolveAssemblyReference.cache
+C:\my-projects\geeks-nancy\FlexProviders\obj\Debug\FlexProviders.dll
+C:\my-projects\geeks-nancy\FlexProviders\obj\Debug\FlexProviders.pdb

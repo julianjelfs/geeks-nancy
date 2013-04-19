@@ -1,0 +1,65 @@
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\FlexProviders.Raven.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\FlexProviders.Raven.pdb
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\FlexProviders.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\Raven.Client.Lightweight.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.AspNet.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.Core.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\Raven.Abstractions.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OAuth.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OpenId.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\System.Net.Http.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\log4net.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\FlexProviders.pdb
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\obj\Debug\FlexProviders.Raven.csprojResolveAssemblyReference.cache
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\obj\Debug\FlexProviders.Raven.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\obj\Debug\FlexProviders.Raven.pdb
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\Org.Mentalis.Security.Cryptography.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\Mono.Math.dll
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\Raven.Client.Lightweight.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.AspNet.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\Raven.Abstractions.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OAuth.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OpenId.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\Org.Mentalis.Security.Cryptography.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\Mono.Math.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.Core.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\System.Net.Http.xml
+C:\Users\julianj\Documents\Visual Studio 2010\Projects\geeks\FlexProviders.Raven\bin\Debug\log4net.xml
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\FlexProviders.Raven.dll
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\FlexProviders.Raven.pdb
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\FlexProviders.dll
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.AspNet.dll
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.Core.dll
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\Raven.Abstractions.dll
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OAuth.dll
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OpenId.dll
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\System.Net.Http.dll
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\log4net.dll
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\Org.Mentalis.Security.Cryptography.dll
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\Mono.Math.dll
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\FlexProviders.pdb
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\Microsoft.Web.WebPages.OAuth.xml
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\Raven.Client.Lightweight.xml
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.AspNet.xml
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.Core.xml
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\Raven.Abstractions.xml
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OAuth.xml
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OpenId.xml
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\System.Net.Http.xml
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\log4net.xml
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\Org.Mentalis.Security.Cryptography.xml
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\Mono.Math.xml
+C:\my-projects\geeks-nancy\FlexProviders.Raven\obj\Debug\FlexProviders.Raven.csprojResolveAssemblyReference.cache
+C:\my-projects\geeks-nancy\FlexProviders.Raven\obj\Debug\FlexProviders.Raven.dll
+C:\my-projects\geeks-nancy\FlexProviders.Raven\obj\Debug\FlexProviders.Raven.pdb
