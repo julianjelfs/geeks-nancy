@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using FlexProviders.Membership;
+using FlexProviders.Raven;
 using Nancy;
 using Nancy.Authentication.Forms;
 using Nancy.Conventions;
@@ -10,6 +12,7 @@ using Nancy.TinyIoc;
 using Raven.Client;
 using Raven.Client.Document;
 using Raven.Client.Indexes;
+using geeks_nancy.models;
 
 namespace geeks_nancy
 {
@@ -25,6 +28,11 @@ namespace geeks_nancy
                 StaticContentConventionBuilder.AddDirectory("assets", @"assets")
             );
 
+            container.Register<IFlexUserStore, FlexMembershipUserStore<User, Role>>();
+            container.Register(typeof(IDocumentStore), InitDocStore());
+            container.Register(typeof(IDocumentSession), (c, overloads) =>
+                c.Resolve<IDocumentStore>().OpenSession());
+
             var cryptographyConfiguration = new CryptographyConfiguration(
                 new RijndaelEncryptionProvider(new PassphraseKeyGenerator(Configuration.EncryptionKey, new byte[] { 8, 2, 10, 4, 68, 120, 7, 14 })),
                 new DefaultHmacProvider(new PassphraseKeyGenerator(Configuration.HmacKey, new byte[] { 1, 20, 73, 49, 25, 106, 78, 86 })));
@@ -36,10 +44,6 @@ namespace geeks_nancy
                     RedirectUrl = "/login",
                     UserMapper = container.Resolve<IUserMapper>(),
                 };
-
-            container.Register(typeof (IDocumentStore), InitDocStore());
-            container.Register(typeof (IDocumentSession), (c, overloads) => 
-                c.Resolve<IDocumentStore>().OpenSession());
 
             FormsAuthentication.Enable(pipelines, authenticationConfiguration);
         }

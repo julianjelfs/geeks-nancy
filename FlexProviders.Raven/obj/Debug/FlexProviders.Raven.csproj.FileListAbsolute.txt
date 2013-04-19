@@ -63,3 +63,6 @@ C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\Mono.Math.xml
 C:\my-projects\geeks-nancy\FlexProviders.Raven\obj\Debug\FlexProviders.Raven.csprojResolveAssemblyReference.cache
 C:\my-projects\geeks-nancy\FlexProviders.Raven\obj\Debug\FlexProviders.Raven.dll
 C:\my-projects\geeks-nancy\FlexProviders.Raven\obj\Debug\FlexProviders.Raven.pdb
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\Raven.Client.Lightweight.dll
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\Raven.Abstractions.pdb
+C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\Raven.Client.Lightweight.pdb

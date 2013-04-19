@@ -50,20 +50,22 @@ namespace FlexProviders.Membership
         /// </returns>
         public bool Login(string username, string password, bool rememberMe = false)
         {
-            IFlexMembershipUser user = _userStore.GetUserByUsername(username);
-            if (user == null)
-            {
-                return false;
-            }
-
-            string encodedPassword = _encoder.Encode(password, user.Salt);
-            bool passed = encodedPassword.Equals(user.Password);
-            if (passed)
+            if (ValidateUser(username, password)!=null)
             {
                 _applicationEnvironment.IssueAuthTicket(username, rememberMe);
                 return true;
             }
             return false;
+        }
+
+        public Guid? ValidateUser(string username, string password)
+        {
+            var user = _userStore.GetUserByUsername(username);
+            if (user == null)
+                return null;
+            if(_encoder.Encode(password, user.Salt).Equals(user.Password))
+                return new Guid(user.Id);
+            return null;
         }
 
         /// <summary>
@@ -80,7 +82,7 @@ namespace FlexProviders.Membership
         /// <param name="user"> The user. </param>
         public void CreateAccount(IFlexMembershipUser user)
         {
-            IFlexMembershipUser existingUser = _userStore.GetUserByUsername(user.Username);
+            IFlexMembershipUser existingUser = _userStore.GetUserByUsername(user.UserName);
             if (existingUser != null)
             {
                 throw new FlexMembershipException(FlexMembershipStatus.DuplicateUserName);
@@ -216,7 +218,7 @@ namespace FlexProviders.Membership
         /// <param name="user"> The user. </param>
         public void CreateOAuthAccount(string provider, string providerUserId, IFlexMembershipUser user)
         {
-            IFlexMembershipUser existingUser = _userStore.GetUserByUsername(user.Username);
+            IFlexMembershipUser existingUser = _userStore.GetUserByUsername(user.UserName);
             if (existingUser == null)
             {
                 _userStore.Add(user);
@@ -237,9 +239,9 @@ namespace FlexProviders.Membership
             {
                 return false;
             }
-            IEnumerable<OAuthAccount> accounts = _userStore.GetOAuthAccountsForUser(user.Username);
+            IEnumerable<OAuthAccount> accounts = _userStore.GetOAuthAccountsForUser(user.UserName);
 
-            if (HasLocalAccount(user.Username))
+            if (HasLocalAccount(user.UserName))
                 return _userStore.DeleteOAuthAccount(provider, providerUserId);
 
             if (accounts.Count() > 1)
@@ -337,7 +339,7 @@ namespace FlexProviders.Membership
             IFlexMembershipUser user = _userStore.GetUserByOAuthProvider(provider, providerUserId);
             if (user != null)
             {
-                return user.Username;
+                return user.UserName;
             }
             return String.Empty;
         }

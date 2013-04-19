@@ -1,21 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using FlexProviders.Membership;
 using Nancy;
 using Nancy.Authentication.Forms;
 using Nancy.Security;
 
 namespace geeks_nancy.models
 {
-    public class UserMapper : IUserMapper
+    public class User : IFlexMembershipUser, IUserIdentity
     {
-        public IUserIdentity GetUserFromIdentifier(Guid identifier, NancyContext context)
+        public User()
         {
-            return new User();
+            OAuthAccounts = new Collection<FlexOAuthAccount>();
         }
-    }
 
-    public class User : IUserIdentity
-    {
+        public string Id { get; set; }
+        public string Password { get; set; }
+        public string Salt { get; set; }
+        public string PasswordResetToken { get; set; }
+        public DateTime PasswordResetTokenExpiration { get; set; }
+        public virtual ICollection<FlexOAuthAccount> OAuthAccounts { get; set; }
+
+        public override string ToString()
+        {
+            return UserName;
+        }
+
         public string UserName { get; set; }
         public IEnumerable<string> Claims { get; set; }
     }

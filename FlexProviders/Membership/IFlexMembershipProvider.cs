@@ -1,3 +1,5 @@
+using System;
+
 namespace FlexProviders.Membership
 {
     public interface IFlexMembershipProvider
@@ -15,6 +17,8 @@ namespace FlexProviders.Membership
         /// 
         /// </returns>
         bool Login(string username, string password, bool rememberMe = false);
+
+        Guid? ValidateUser(string username, string password);
 
         /// <summary>
         ///   Logout the current user

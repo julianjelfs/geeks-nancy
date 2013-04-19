@@ -51,3 +51,6 @@ C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\Mono.Math.xml
 C:\my-projects\geeks-nancy\FlexProviders\obj\Debug\FlexProviders.csprojResolveAssemblyReference.cache
 C:\my-projects\geeks-nancy\FlexProviders\obj\Debug\FlexProviders.dll
 C:\my-projects\geeks-nancy\FlexProviders\obj\Debug\FlexProviders.pdb
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.AspNet.dll
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\System.Net.Http.WebRequest.dll
+C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\System.Net.Http.WebRequest.xml

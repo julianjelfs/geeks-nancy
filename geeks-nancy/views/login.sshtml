@@ -3,6 +3,7 @@
 <div class="row-fluid content">
     <div class="span5">
 		<form action="/login" method="post">
+			<input type="hidden" name="ReturnUrl" value="@Model.ReturnUrl" />
             <fieldset>
                 <legend class="geek">Log in using a local account</legend>
 				<label for="UserName">User name (which is your email address)</label>

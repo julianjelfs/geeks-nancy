@@ -5,7 +5,8 @@ namespace FlexProviders.Membership
 {
     public interface IFlexMembershipUser
     {
-        string Username { get; set; }
+        string Id { get; set; }
+        string UserName { get; set; }
         string Password { get; set; }
         string Salt { get; set; }
         string PasswordResetToken { get; set; }
