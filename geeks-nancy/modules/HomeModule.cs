@@ -28,13 +28,11 @@ namespace geeks_nancy.Modules
 
     public class HomeModule : RavenNancyModule
     {
-        private readonly IEmailer _emailer;
 
-        public HomeModule(IEmailer emailer)
+        public HomeModule()
         {
-            _emailer = emailer;
-            Get["/"] = parameters => "home page";
-            Get["/about"] = parameters => _emailer.SayHello() + " from about page";
+            Get["/"] = parameters => View["index.sshtml"];
+            Get["/about"] = parameters => "hello from about page";
         }
     }
 }

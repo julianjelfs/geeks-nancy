@@ -2,6 +2,5 @@ c:\my-projects\geeks-nancy\geeks-nancy\bin\geeks-nancy.dll
 c:\my-projects\geeks-nancy\geeks-nancy\bin\geeks-nancy.pdb
 c:\my-projects\geeks-nancy\geeks-nancy\bin\Nancy.dll
 c:\my-projects\geeks-nancy\geeks-nancy\bin\Nancy.Hosting.Aspnet.dll
-c:\my-projects\geeks-nancy\geeks-nancy\obj\Debug\geeks-nancy.csprojResolveAssemblyReference.cache
 c:\my-projects\geeks-nancy\geeks-nancy\obj\Debug\geeks-nancy.dll
 c:\my-projects\geeks-nancy\geeks-nancy\obj\Debug\geeks-nancy.pdb
