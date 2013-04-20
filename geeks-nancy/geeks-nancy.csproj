@@ -43,6 +43,12 @@
     <Reference Include="Nancy.Hosting.Aspnet">
       <HintPath>..\packages\Nancy.Hosting.Aspnet.0.16.1\lib\net40\Nancy.Hosting.Aspnet.dll</HintPath>
     </Reference>
+    <Reference Include="Nancy.Serialization.JsonNet">
+      <HintPath>..\packages\Nancy.Serialization.JsonNet.0.16.1\lib\net40\Nancy.Serialization.JsonNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Raven.Abstractions">
       <HintPath>..\packages\RavenDB.Database.2.0.2330\lib\net40\Raven.Abstractions.dll</HintPath>
     </Reference>
@@ -53,6 +59,7 @@
       <HintPath>..\packages\RavenDB.Database.2.0.2330\lib\net40\Raven.Database.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -77,6 +84,7 @@
     <Content Include="assets\js\angular.js" />
     <Content Include="assets\js\bootstrap-datepicker.js" />
     <Content Include="assets\js\bootstrap.js" />
+    <Content Include="assets\js\events.js" />
     <Content Include="assets\js\geeks.js" />
     <Content Include="assets\js\jquery-1.9.1.js" />
     <Content Include="assets\js\jquery.validate.min.js" />
@@ -92,8 +100,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bootstrap.cs" />
+    <Compile Include="commands\Command.cs" />
     <Compile Include="Configuration.cs" />
+    <Compile Include="models\Event.cs" />
+    <Compile Include="models\EventModel.cs" />
+    <Compile Include="models\Friend.cs" />
+    <Compile Include="models\Invitation.cs" />
+    <Compile Include="models\InvitationModel.cs" />
     <Compile Include="models\LoginModel.cs" />
+    <Compile Include="models\Person.cs" />
     <Compile Include="models\Role.cs" />
     <Compile Include="models\User.cs" />
     <Compile Include="modules\EventModule.cs" />
@@ -101,6 +116,12 @@
     <Compile Include="modules\LoginModule.cs" />
     <Compile Include="modules\RavenNancyModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="queries\EventsDataForUser.cs" />
+    <Compile Include="queries\Event_ByDescription.cs" />
+    <Compile Include="queries\ListQuery.cs" />
+    <Compile Include="queries\ListResult.cs" />
+    <Compile Include="queries\PersonByUserId.cs" />
+    <Compile Include="queries\Query.cs" />
     <Compile Include="queries\UserMapper.cs" />
     <Compile Include="services\Emailer.cs" />
   </ItemGroup>
@@ -109,9 +130,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="assets\img\" />
-    <Folder Include="commands\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="views\about.sshtml" />
+    <None Include="views\events.sshtml" />
     <None Include="views\external-logins.sshtml" />
     <None Include="views\login.sshtml" />
     <None Include="views\_master.sshtml" />

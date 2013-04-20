@@ -8,8 +8,8 @@ namespace geeks_nancy.Modules
 
         public HomeModule(IDocumentSession session) : base(session)
         {
-            Get["/"] = parameters => View["index.sshtml"];
-            Get["/about"] = parameters => "hello from about page";
+            Get["/"] = parameters => View["index"];
+            Get["/about"] = parameters => View["about"];
         }
     }
 }

@@ -1,0 +1,70 @@
+﻿@Master['_master']
+@Section['Content']
+
+<div class="content" ng-controller="EventsCtrl">
+    <h2 class="geek">Events<spinner/></h2>
+	
+    <p></p>
+	
+	<div class="btn-group pull-right">
+        <a ng-class="prevClass" ng-click="prev()">Prev</a>
+        <a ng-class="nextClass" ng-click="next()">Next</a>
+	    <a class="btn" href="/geeks/home/event">Create an event</a>
+    </div>
+    
+    <input style="margin-left:10px;margin-right: 10px" class="pull-right" type="text" ng-change="searchArgs.pageIndex = 0;search()" placeholder="Search" ng-model="searchArgs.search" />
+
+	<div id="table-placeholder" ng-show="events.length > 0">
+        
+        <table class="table events">
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Venue</th>
+                    <th>Organiser</th>
+                    <th class="centered">When</th>
+                    <th class="centered" width="100px">Score</th>
+                    <th width="40px"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-class="statusClass(ev)" ng-repeat="ev in events">
+                    <td>
+                        <a href="/event/{{ev.Id}}" ng-bind="ev.Description" truncate="50">{{ev.Description}}</a>
+                    </td>
+                    <td truncate="30" ng-bind="ev.Venue"></td>
+                    <td ng-bind="ev.CreatedByUserName"></td>
+                    <td class="centered">{{ev.Date | date:'dd MMMM yyyy'}} @@ {{ev.Time}}</td>
+                    <td class="centered" style="text-align: center">{{ev.Score | number:2}}% <i ng-class="thumbClass(ev)"></i></td>
+                    <td>
+                        <delete-event warning="#delete-warning"></delete-event>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+		<div id="delete-warning" class="modal hide fade">
+            <div class="modal-header">
+                <h3 class="geek">Cancel Event</h3>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Are you sure you want to cancel this event? 
+                    If you proceed, a notification email will be sent to 
+                    everyone that you invited.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">No</button>
+                <input id="delete-event" type="button" class="btn" value="Yes" ng-click="deleteEvent()"/>
+            </div>
+        </div>
+        
+	</div>
+
+</div>
+@EndSection
+
+@Section['scripts']
+	<script type="text/javascript" src="assets/js/events.js"></script>
+@EndSection

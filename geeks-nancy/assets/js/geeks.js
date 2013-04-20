@@ -21,11 +21,60 @@ app.factory("listData", function($http, $rootScope) {
         }
     };
 }).controller("GeeksCtrl", function($scope) {
+    $scope.tabs = [{
+        route : "/",
+        text : "Home",
+        align : "left"
+    },{
+        route : "/events",
+        text : "Events",
+        align : "left"
+    },{
+        route : "/friends",
+        text : "Friends",
+        align : "left"
+    },{
+        route : "/about",
+        text : "About",
+        align : "left"
+    },{
+        route : "/login",
+        text : "Log In",
+        align : "right",
+        authenticated : false
+    },{
+        route : "/logout",
+        text : "Log Out",
+        align : "right",
+        authenticated : true
+    },{
+        route : "/register",
+        text : "Register",
+        align : "right",
+        authenticated : false
+    },{
+        route : "/manage",
+        text : "auth",
+        align : "right",
+        authenticated : true
+    }];
+
+    $scope.$on("tabSelected", function(ex, index) {
+        angular.forEach($scope.tabs, function(val, i) {
+            val.active = i == index;
+        });
+    });
+    
     $scope.$on("UNEXPECTEDERROR", function(ev, data) {
         $scope.error = data;
         angular.element("#unexpected-error").modal("show");
         $scope.loading = false;
     });
+    
+}).controller("HomeCtrl", function($scope) {
+    $scope.$emit("tabSelected", 0);
+}).controller("AboutCtrl", function($scope) {
+    $scope.$emit("tabSelected", 3);
 }).directive("friendPicker", function($http) {
     return {
         restrict : "E",
@@ -160,7 +209,7 @@ app.factory("listData", function($http, $rootScope) {
     };
 }).directive("spinner", function() {
     return {
-        template : "<img style='margin-left:10px' ng-show='loading' src='/geeks/img/ajax-loader2.gif' />",
+        template : "<img style='margin-left:10px' ng-show='loading' src='/assets/img/ajax-loader2.gif' />",
         restrict: "E",
         replace : true
     };
@@ -189,4 +238,27 @@ app.factory("listData", function($http, $rootScope) {
             });
         }
     };
+}).directive("tabs", function() {
+    return {
+        restrict : "E",
+        replace : true,
+        template : "<ul id='nav-bar' class='nav nav-tabs'><li ng-show='show(tab)' ng-repeat='tab in tabs' ng-class='tabClass(tab)'><a href='{{tab.route}}'>{{tabText(tab)}}</a></li></ul>",
+        link : function(scope, el, atts) {
+            var auth = atts.authenticated;
+            scope.show = function(tab) {
+                console.log("tab: " + tab.text + " tab.authenticated: " + tab.authenticated + ", auth: " + auth);
+                return tab.authenticated === undefined 
+                    || (tab.authenticated === true && auth != "false")
+                    || (tab.authenticated === false && auth === "false");
+            };
+            scope.tabClass = function(tab) {
+                var cls = tab.active ? "active" : "";
+                cls += (tab.align == "right" ? " pull-right" : "");
+                return cls;
+            }
+            scope.tabText = function(tab) {
+                return tab.text == "auth" ? auth : tab.text;
+            }
+        }
+    }
 });

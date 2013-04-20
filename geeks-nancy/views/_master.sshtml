@@ -26,25 +26,12 @@
             <div class="span3 offset1 logo"></div>
             <div class="span7">
                 <div class="row-fluid">
-                    <ul id="nav-bar" class="nav nav-tabs">
-                        <li id="home-nav">
-							<a href="/">Home</a>
-                        </li>
-                        <li id="events-nav">
-                            <a href="/events">Events</a>
-                        </li>
-                        <li id="friends-nav">
-							<a href="/friends">Friends</a>
-                        </li>
-                        <li id="about-nav">
-                            <a href="/about">About</a>
-                        </li>
-						@IfNotNull.Context.CurrentUser
-							<li class="pull-right">
-								<a href="/logout">Log out</a>
-							</li>
-						@EndIf
-                    </ul>
+					@IfNotNull.Context.CurrentUser
+						<tabs authenticated="@!Context.CurrentUser"></tabs>
+					@EndIf
+					@IfNull.Context.CurrentUser
+						<tabs authenticated="false"></tabs>
+					@EndIf
                 </div>
                 <div class="row-fluid">
                     <h1 class="geek pull-right">Geek's Dilemma</h1>    
@@ -75,6 +62,7 @@
         </div>
     </div>
     
+	<script type="text/javascript" src="assets/js/jquery-1.9.1.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.js"></script>
 	<script type="text/javascript" src="assets/js/angular.js"></script>
 	<script type="text/javascript" src="assets/js/angular-ui.js"></script>

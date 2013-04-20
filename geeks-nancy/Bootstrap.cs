@@ -8,6 +8,7 @@ using Nancy.Authentication.Forms;
 using Nancy.Conventions;
 using Nancy.Cryptography;
 using Nancy.Security;
+using Nancy.Session;
 using Nancy.TinyIoc;
 using Raven.Client;
 using Raven.Client.Document;
@@ -21,6 +22,8 @@ namespace geeks_nancy
         protected override void ApplicationStartup(TinyIoCContainer container, Nancy.Bootstrapper.IPipelines pipelines)
         {
             base.ApplicationStartup(container, pipelines);
+
+            CookieBasedSessions.Enable(pipelines);
             
             Conventions.ViewLocationConventions.Add((viewName, model, context) => string.Concat("views/", viewName));
 
