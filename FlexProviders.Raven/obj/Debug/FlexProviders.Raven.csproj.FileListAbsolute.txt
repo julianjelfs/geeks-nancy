@@ -43,7 +43,6 @@ C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OAuth.dl
 C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
 C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OpenId.dll
 C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\System.Net.Http.dll
-C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\log4net.dll
 C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\Org.Mentalis.Security.Cryptography.dll
 C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\Mono.Math.dll
 C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\FlexProviders.pdb
@@ -57,7 +56,6 @@ C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OAuth.xm
 C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
 C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\DotNetOpenAuth.OpenId.xml
 C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\System.Net.Http.xml
-C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\log4net.xml
 C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\Org.Mentalis.Security.Cryptography.xml
 C:\my-projects\geeks-nancy\FlexProviders.Raven\bin\Debug\Mono.Math.xml
 C:\my-projects\geeks-nancy\FlexProviders.Raven\obj\Debug\FlexProviders.Raven.csprojResolveAssemblyReference.cache

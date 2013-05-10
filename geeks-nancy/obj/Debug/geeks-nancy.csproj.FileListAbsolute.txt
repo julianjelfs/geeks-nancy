@@ -39,7 +39,6 @@ C:\my-projects\geeks-nancy\geeks-nancy\bin\Esent.Interop.pdb
 C:\my-projects\geeks-nancy\geeks-nancy\bin\Esent.Interop.xml
 C:\my-projects\geeks-nancy\geeks-nancy\bin\AWSSDK.xml
 C:\my-projects\geeks-nancy\geeks-nancy\bin\FlexProviders.dll
-C:\my-projects\geeks-nancy\geeks-nancy\bin\DotNetOpenAuth.AspNet.dll
 C:\my-projects\geeks-nancy\geeks-nancy\bin\Microsoft.Web.WebPages.OAuth.dll
 C:\my-projects\geeks-nancy\geeks-nancy\bin\DotNetOpenAuth.OAuth.Consumer.dll
 C:\my-projects\geeks-nancy\geeks-nancy\bin\DotNetOpenAuth.OAuth.dll
@@ -47,7 +46,6 @@ C:\my-projects\geeks-nancy\geeks-nancy\bin\DotNetOpenAuth.Core.dll
 C:\my-projects\geeks-nancy\geeks-nancy\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
 C:\my-projects\geeks-nancy\geeks-nancy\bin\DotNetOpenAuth.OpenId.dll
 C:\my-projects\geeks-nancy\geeks-nancy\bin\System.Net.Http.dll
-C:\my-projects\geeks-nancy\geeks-nancy\bin\log4net.dll
 C:\my-projects\geeks-nancy\geeks-nancy\bin\Org.Mentalis.Security.Cryptography.dll
 C:\my-projects\geeks-nancy\geeks-nancy\bin\Mono.Math.dll
 C:\my-projects\geeks-nancy\geeks-nancy\bin\FlexProviders.pdb
@@ -59,7 +57,6 @@ C:\my-projects\geeks-nancy\geeks-nancy\bin\DotNetOpenAuth.Core.xml
 C:\my-projects\geeks-nancy\geeks-nancy\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
 C:\my-projects\geeks-nancy\geeks-nancy\bin\DotNetOpenAuth.OpenId.xml
 C:\my-projects\geeks-nancy\geeks-nancy\bin\System.Net.Http.xml
-C:\my-projects\geeks-nancy\geeks-nancy\bin\log4net.xml
 C:\my-projects\geeks-nancy\geeks-nancy\bin\Org.Mentalis.Security.Cryptography.xml
 C:\my-projects\geeks-nancy\geeks-nancy\bin\Mono.Math.xml
 C:\my-projects\geeks-nancy\geeks-nancy\bin\FlexProviders.Raven.dll
@@ -67,3 +64,6 @@ C:\my-projects\geeks-nancy\geeks-nancy\bin\FlexProviders.Raven.pdb
 C:\my-projects\geeks-nancy\geeks-nancy\bin\Nancy.Serialization.JsonNet.dll
 C:\my-projects\geeks-nancy\geeks-nancy\bin\Newtonsoft.Json.dll
 C:\my-projects\geeks-nancy\geeks-nancy\bin\Newtonsoft.Json.xml
+C:\my-projects\geeks-nancy\geeks-nancy\bin\RestSharp.dll
+C:\my-projects\geeks-nancy\geeks-nancy\bin\WorldDomination.Web.Authentication.dll
+C:\my-projects\geeks-nancy\geeks-nancy\bin\RestSharp.xml

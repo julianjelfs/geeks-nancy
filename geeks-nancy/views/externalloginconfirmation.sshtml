@@ -1,0 +1,19 @@
+﻿@Master['_master']
+@Section['Content']
+
+<h2 class="geek">Associate your Google account</h2>
+
+<form action="/externalloginconfirmation?returnUrl=@Model.ReturnUrl" method="post">
+    <p>
+        You've successfully authenticated with <strong>Google</strong>.
+        Please enter a user name for this site below and click the Confirm button to finish
+        logging in.
+    </p>
+	<label for="UserName">User Name</label>
+	<input type="text" name="UserName" value="@Model.UserName" />
+	<input type="hidden" name="ExternalLoginData" value="@Model.ExternalLoginData" />
+    <br/>
+    <input type="submit" class="btn" value="Register" />
+</form>
+
+@EndSection

@@ -39,6 +39,9 @@ namespace geeks_nancy.Modules
             Get["/{id}"] = parameters => "a specific event " + parameters.id;
         }
 
+        /// <summary>
+        /// this should be a method on the event class I think
+        /// </summary>
         private EventModel EventModelFromEvent(Event ev, Person currentPerson = null)
         {
             var organiser = Session.Load<User>(ev.CreatedBy);

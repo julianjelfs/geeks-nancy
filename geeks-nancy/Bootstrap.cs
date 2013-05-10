@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using DotNetOpenAuth.AspNet.Clients;
 using FlexProviders.Membership;
 using FlexProviders.Raven;
 using Nancy;
@@ -49,6 +50,10 @@ namespace geeks_nancy
                 };
 
             FormsAuthentication.Enable(pipelines, authenticationConfiguration);
+
+            FlexMembershipProvider.RegisterClient(
+                new GoogleOpenIdClient(),
+                "Google", new Dictionary<string, object>());
         }
 
         private IDocumentStore InitDocStore()

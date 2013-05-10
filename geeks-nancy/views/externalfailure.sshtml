@@ -1,0 +1,6 @@
+﻿@Master['_master']
+@Section['Content']
+
+<h2 class="geek">Unsuccessful login with Google</h2>
+
+@EndSection

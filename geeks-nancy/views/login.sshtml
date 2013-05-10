@@ -13,11 +13,19 @@
                 <button class="btn" type="submit">Log In</button>
             </fieldset>
             <p>
-				<a href="/register?returnUrl=">Register here if you don't have an account</a>
+				<a href="/register?returnUrl=@Model.ReturnUrl">Register here if you don't have an account</a>
             </p>
+		</form>
     </div>
     <div class="span4">
-        @Partial['external-logins']
+		<form action="/externallogin?returnUrl=@Model.ReturnUrl" method="post">
+			<fieldset id="socialLoginList">
+				<legend class="geek">Use another service to log in</legend>
+				<p>
+					<button type="submit" class="btn" name="provider" value="Google" title="Log in using your Google account">Google</button>
+				</p>
+			</fieldset>
+		</form>
     </div>
 </div>
 @EndSection

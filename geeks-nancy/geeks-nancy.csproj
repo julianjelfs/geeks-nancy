@@ -33,12 +33,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DotNetOpenAuth.AspNet, Version=4.2.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.WebPages.OAuth, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="Nancy">
       <HintPath>..\packages\Nancy.0.16.1\lib\net40\Nancy.dll</HintPath>
     </Reference>
     <Reference Include="Nancy.Authentication.Forms">
       <HintPath>..\packages\Nancy.Authentication.Forms.0.16.1\lib\net40\Nancy.Authentication.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Nancy.Authentication.WorldDomination">
+      <HintPath>..\packages\Nancy.Authentication.WorldDomination.0.17.0\lib\net40\Nancy.Authentication.WorldDomination.dll</HintPath>
     </Reference>
     <Reference Include="Nancy.Hosting.Aspnet">
       <HintPath>..\packages\Nancy.Hosting.Aspnet.0.16.1\lib\net40\Nancy.Hosting.Aspnet.dll</HintPath>
@@ -58,6 +63,9 @@
     <Reference Include="Raven.Database">
       <HintPath>..\packages\RavenDB.Database.2.0.2330\lib\net40\Raven.Database.dll</HintPath>
     </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\packages\RestSharp.104.1\lib\net4\RestSharp.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Web.DynamicData" />
@@ -75,6 +83,9 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WorldDomination.Web.Authentication">
+      <HintPath>..\packages\WorldDomination.Web.Authentication.0.17.0\lib\net40\WorldDomination.Web.Authentication.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\bootstrap.css" />
@@ -109,6 +120,7 @@
     <Compile Include="models\InvitationModel.cs" />
     <Compile Include="models\LoginModel.cs" />
     <Compile Include="models\Person.cs" />
+    <Compile Include="models\RegisterExternalModel.cs" />
     <Compile Include="models\Role.cs" />
     <Compile Include="models\User.cs" />
     <Compile Include="modules\EventModule.cs" />
@@ -135,6 +147,8 @@
     <None Include="views\about.sshtml" />
     <None Include="views\events.sshtml" />
     <None Include="views\external-logins.sshtml" />
+    <None Include="views\externalfailure.sshtml" />
+    <None Include="views\externalloginconfirmation.sshtml" />
     <None Include="views\login.sshtml" />
     <None Include="views\_master.sshtml" />
   </ItemGroup>

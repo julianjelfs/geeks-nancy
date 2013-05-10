@@ -34,7 +34,6 @@ C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.Core.dll
 C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
 C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.OpenId.dll
 C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\System.Net.Http.dll
-C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\log4net.dll
 C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\Org.Mentalis.Security.Cryptography.dll
 C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\Mono.Math.dll
 C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.AspNet.xml
@@ -45,12 +44,11 @@ C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.Core.xml
 C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
 C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.OpenId.xml
 C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\System.Net.Http.xml
-C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\log4net.xml
 C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\Org.Mentalis.Security.Cryptography.xml
 C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\Mono.Math.xml
-C:\my-projects\geeks-nancy\FlexProviders\obj\Debug\FlexProviders.csprojResolveAssemblyReference.cache
 C:\my-projects\geeks-nancy\FlexProviders\obj\Debug\FlexProviders.dll
 C:\my-projects\geeks-nancy\FlexProviders\obj\Debug\FlexProviders.pdb
 C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\DotNetOpenAuth.AspNet.dll
 C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\System.Net.Http.WebRequest.dll
 C:\my-projects\geeks-nancy\FlexProviders\bin\Debug\System.Net.Http.WebRequest.xml
+C:\my-projects\geeks-nancy\FlexProviders\obj\Debug\FlexProviders.csprojResolveAssemblyReference.cache
